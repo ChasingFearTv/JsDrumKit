@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Drumkit</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div class="text-center">
+        <h1>A drumkit for whatever.</h1>
+    </div>
+
+
+    <div class="keys container-fluid">
+        <div class="row align-items-center">
+            <div class="col">
+                <div data-key="65" class="key">
+                    <kbd>A</kbd>
+                    <span class="sound">Hihat</span>
+                </div>
+            </div>
+            <div class="col">
+                <div data-key="83" class="key">
+                    <kbd>S</kbd>
+                    <span class="sound">Conga</span>
+                </div>
+            </div>
+            <div class="col">
+                <div data-key="68" class="key">
+                    <kbd>D</kbd>
+                    <span class="sound">Cowbell</span>
+                </div>
+            </div>
+            <div class="col">
+                <div data-key="70" class="key">
+                    <kbd>F</kbd>
+                    <span class="sound">Handclap</span>
+                </div>
+            </div>
+            <div class="col">
+                <div data-key="71" class="key">
+                    <kbd>G</kbd>
+                    <span class="sound">Hi_conga</span>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col">
+                <div data-key="72" class="key">
+                    <kbd>H</kbd>
+                    <span class="sound">Hightom</span>
+                </div>
+            </div>
+            <div class="col">
+                <div data-key="74" class="key">
+                    <kbd>J</kbd>
+                    <span class="sound">Kick</span>
+                </div>
+            </div>
+            <div class="col">
+                <div data-key="75" class="key">
+                    <kbd>K</kbd>
+                    <span class="sound">HH</span>
+                </div>
+            </div>
+            <div class="col">
+                <div data-key="76" class="key">
+                    <kbd>L</kbd>
+                    <span class="sound">Snare</span>
+                </div>
+            </div>
+            <div class="col">
+                <div data-key="186" class="key">
+                    <kbd>;</kbd>
+                    <span class="sound">Tom</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <audio data-key="65" src="sounds/cl_hihat.wav"></audio>
+    <audio data-key="83" src="sounds/conga1.wav"></audio>
+    <audio data-key="68" src="sounds/cowbell.wav"></audio>
+    <audio data-key="70" src="sounds/handclap.wav"></audio>
+    <audio data-key="71" src="sounds/hi_conga.wav"></audio>
+    <audio data-key="72" src="sounds/hightom.wav"></audio>
+    <audio data-key="74" src="sounds/kick1.wav"></audio>
+    <audio data-key="75" src="sounds/open_hh.wav"></audio>
+    <audio data-key="76" src="sounds/snare.wav"></audio>
+    <audio data-key="186" src="sounds/tom1.wav"></audio>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="index.js" async defer></script>
+</body>
+</html>
