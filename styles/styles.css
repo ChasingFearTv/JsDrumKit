@@ -1,3 +1,5 @@
+
+
 body {
     margin:5%;
     background-image: url('https://scx1.b-cdn.net/csz/news/800/2017/theoreticala.jpg');
@@ -8,7 +10,6 @@ body {
 
 h1 {
     position: relative;
-    top: 100px;
     font-size: 5rem;
     color: #37b093;
 }
@@ -23,9 +24,8 @@ h1 {
     color:white;
     background:rgba(7, 67, 79, 0.4);
     text-shadow:0 0 5px;
-    position:relative;
-    top: 200px;
-    right: 15px;
+    text-align: center;
+    touch-action: none;
 }
 
 .playing {
@@ -37,4 +37,13 @@ h1 {
 kbd {
     display: block;
     font-size:25px;
+}
+
+.dot {
+    background-color: red;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
