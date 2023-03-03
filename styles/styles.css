@@ -6,6 +6,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    touch-action: none;
 }
 
 h1 {
@@ -46,4 +47,9 @@ kbd {
     border-radius: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
+}
+@media (max-width: 991.98px) {
+    h1 {
+        display: none;
+    }
 }
