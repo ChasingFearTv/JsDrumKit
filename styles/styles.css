@@ -2,7 +2,7 @@
 
 body {
     margin:5%;
-    background-image: url('https://scx1.b-cdn.net/csz/news/800/2017/theoreticala.jpg');
+    background: blue url(https://cdn.pixabay.com/photo/2016/11/29/04/19/ocean-1867285_960_720.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
